@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>collage</title>
+	<style>
+		section{margin:0; padding:0;}
+		.wrap{height:100%}
+	
+		.f8{width:100px; height:100px; background:yellow;}
+		
+		.text{width:900px; height:180px; background:black; color:white; top:1300px; margin-right: 400px;}
+		.text:hover{width:1100px;}
+		.right{animation: ro 10s infinite linear;}
+		@keyframes ro{
+			to{transform:rotate3D(0,1,0,360deg);}
+		}
+		.clock{animation: ro2 30s infinite cubic-bezier(.17,.67,.89,-0.13)}
+		@keyframes ro2{
+				from{}
+				to{transform:rotate(360deg);}}
+		.planet{animation: ro3 30s infinite linear;}
+		@keyframes ro3{
+			to{transform:rotate(360deg);}}
+		.dance:hover{width:500px;}
+		@keyframes po1{
+			from{left:7px;}
+			to{left:50px;}}
+		.turn{animation: cha1 3s infinite}
+		@keyframes cha1{
+  			from {background-color: blue;}
+  			to {background-color: yellow; transform:rotate(-360deg);}}
+  		.hand{animation: po2 1s infinite}
+  		@keyframes po2{
+  			from{left:0px;}
+  			to{left:800px;}}
+  		.righttop{animation: po3 3s infinite; ;}
+  		@keyframes po3{
+  			from{top:7px;}
+  			to{top:27px;transform:rotate(-360deg)}}
+  		.fly{animation: po4 2s infinite;}
+  		@keyframes po4{
+  			from{left:20px;}}
+  			to {left:700px;}
+  		.move{animation: po4 1s infinite;}
+  		@keyframes po4{
+  			from{right:7px;}
+  			to{right:27px;}}
+  		{animation: po4 8s infinite;}
+  		@keyframes po4{
+  			from{right:7px;}
+  			to{right:27px;}}
+
+		
+	</style>
+</head>
+<body>
+	
+	<img src="./universe.png" style="width : 100%; display:block;  position:fixed;">
+	
+	<img src="./airplane.png" class="fly" style="display:block; right:7px; top:7px; position:absolute;">
+	<img src="./dino.png" class="dance" style="display:block; right:7px; margin-top:100px; position:absolute; width:1100px;">
+	
+	<img src="./boardbird.png" class="turn" style="display:block; right:550px; margin-top:450px; position:absolute; width: 100px;">
+	<img src="./olympic.png" class="righttop" style="display:block; right:150px; top:7px; width:900px; position:absolute;">
+	<img src="./planet3.png" class="planet" style="display:block; margin-left:150px; margin-top:180px; position:absolute; width:600px;">
+	<img src="./planet2.png" class="paper" style="display:block; margin-left:20px; margin-top:380px; position:absolute; width:300px;">
+	<img src="./planet3.png" style="display:block; margin-left:350px; margin-top:350px; position:fixed; width:100px;">
+	<img src="./planet1.png" style="display:block; width:600px; margin-top:50px; position:fixed;">
+	<img src="./bshong.png" style="display:block; right:7px; margin-top:0px; position:fixed;">
+	<img src="./mountain.png" class="mountain" style="display:block; width: 100%; margin-top:450px; position:fixed;">
+
+
+	<img src="./skeleton.png" style="display:block; margin-left:300px; margin-top:130px; position:absolute;">
+	
+	<img src="./catgoldfish.png" class="right" style="display:block; margin-left:39%; margin-top:90px; position:fixed;">
+	<img src="./boardbird.png" class="fly" style="display:block; width:400px; margin-top:50px; position:fixed;">
+	<img src="./planet2.png" class="hand" style="display:block; margin-left:180px; margin-top:490px; position:absolute;">
+	<img src="./planet3.png" class="sleep" style="display:block; position:absolute; left:40%; bottom:20px;">
+	<img src="./bshong.png" class="clock" style="display:block; margin-left:47%; margin-top:370px; position:fixed; width: 20px;">
+	
+	<img src="./boardbird.png" class="righttop" style="display:block; left:550px; margin-top:90px; position:fixed; width: 60px;">
+	<img src="./pome.png" style="display:block; position:absolute; width:430px; bottom:0; margin-left:60%;">
+	<div class="text" style="position:absolute; font-size: 150px;">Animalmypic In Universe.</div>
+
+
+
+	<div class="wrap">
+			<header></header>
+			<section id="backback">
+				<img src="./mountain.jpg" style="width:100%; border:0;">
+			</section>
+	
+	</div>
+</body>
+</html>
